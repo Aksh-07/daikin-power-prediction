@@ -1,0 +1,99 @@
+{
+  "zone": "Asia/Kolkata",
+  "period_start": "2022-04-19",
+  "period_end": "2023-07-01",
+  "n_days": 439,
+  "n_usable": 347,
+  "n_frozen": 34,
+  "n_quiet": 78,
+  "frozen_recorded_kwh": 1480.1,
+  "frozen_examples": [
+    "2023-03-12",
+    "2023-03-13",
+    "2023-03-14",
+    "2023-03-15",
+    "2023-03-16",
+    "2023-03-17"
+  ],
+  "median_usable_kwh": 17.2,
+  "weekday_median_kwh": 22.1,
+  "weekend_median_kwh": 2.4,
+  "train_end": "2023-03-31",
+  "cal_start": "2023-02-25",
+  "cal_end": "2023-03-31",
+  "test_start": "2023-04-01",
+  "test_end": "2023-06-30",
+  "calendar": {
+    "n": 71,
+    "train_n": 263,
+    "cal_n": 3,
+    "mae": 5.14,
+    "wape": 0.251,
+    "bias": -1.52,
+    "n_in_range": 54,
+    "coverage": 0.761,
+    "train_mae": null,
+    "baseline_mae": 10.31,
+    "baseline_wape": 0.504,
+    "baseline_bias": -0.2,
+    "factors": [
+      {
+        "label": "Yesterday's outdoor temperature",
+        "share": 0.184
+      },
+      {
+        "label": "What this weekday usually uses",
+        "share": 0.182
+      },
+      {
+        "label": "This weekday last week",
+        "share": 0.162
+      },
+      {
+        "label": "Which day of the week it is",
+        "share": 0.136
+      },
+      {
+        "label": "Yesterday's electricity",
+        "share": 0.119
+      }
+    ]
+  },
+  "weather": {
+    "n": 71,
+    "train_n": 263,
+    "cal_n": 3,
+    "mae": 5.08,
+    "wape": 0.248,
+    "bias": -1.68,
+    "n_in_range": 53,
+    "coverage": 0.746,
+    "train_mae": null,
+    "baseline_mae": 10.31,
+    "baseline_wape": 0.504,
+    "baseline_bias": -0.2,
+    "factors": [
+      {
+        "label": "What this weekday usually uses",
+        "share": 0.188
+      },
+      {
+        "label": "This weekday last week",
+        "share": 0.174
+      },
+      {
+        "label": "Which day of the week it is",
+        "share": 0.139
+      },
+      {
+        "label": "How hot this day is",
+        "share": 0.113
+      },
+      {
+        "label": "Yesterday's electricity",
+        "share": 0.112
+      }
+    ]
+  },
+  "upcoming_date": "2023-07-01"
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Readings added after the original file. The original data_D.csv stays in git.
+data_extra.csv
+incoming/*.csv
+incoming/processed/
