@@ -4,6 +4,8 @@ Proof of concept for one Daikin outdoor unit. Each morning it gives **one number
 
 The screen is written for a non-technical reader. Pick any morning from April through June 2023 to see the forecast as it would have been given before that day unfolded, then what the unit actually used.
 
+For the technical team, the short write-up of each step is in [docs/poc.md](docs/poc.md).
+
 ## What is in the box
 
 - `data_D.csv` — 5-minute readings from 19 April 2022 through 30 June 2023 (UTC timestamps). Days on the screen are midnight to midnight, India time.
